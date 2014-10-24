@@ -30,7 +30,21 @@
         </repository>
     </repositories>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>fr.paris.lutece</groupId>
+            <artifactId>lutece-core</artifactId>
+            <version>[4.4.0,)</version>
+            <type>lutece-core</type>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>1.3.4</version>
+        </dependency>   
+    </dependencies>
+    
+    
     <properties>
         <componentName>elasticsearch</componentName>
         <jiraProjectName>ESSTATSFLT</jiraProjectName>
