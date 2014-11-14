@@ -1,0 +1,4 @@
+/plugin-elasticsearch/target
+/module-elasticsearch-head/target/
+/plugin-kibana/target
+/module-elasticsearch-statsfilter/target/
